@@ -1,0 +1,20 @@
+server:
+  port: 7073
+
+spring:
+
+  datasource:
+    url: jdbc:mysql://aws-rds.c5fqdm9w9wng.ap-south-1.rds.amazonaws.com:3306/Aws_Rds
+    username: admin
+    password: iopjkl890
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+
+      ddl-auto: update
+    show-sql: true
+
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+
+
+
