@@ -1,4 +1,4 @@
-FROM  open-jdk:11
+FROM  open-jdk:17
 
 MAINTAINER ABHISHEK<abhishekpanda315@gmail.com>
 
